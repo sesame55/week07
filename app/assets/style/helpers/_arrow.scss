@@ -1,0 +1,16 @@
+.keyboard-arrow {
+    display: block;
+    // width: 120px;
+    > .material-icons {
+        // display: block;
+        // width: 48px;
+        // height: 48px;
+        font-size: 48px;
+        @include xl {
+            font-size: $fz * 4;
+        }
+        @include lg {
+            font-size: $fz * 3;
+        }
+    }
+}

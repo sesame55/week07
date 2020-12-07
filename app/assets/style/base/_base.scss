@@ -1,21 +1,6 @@
-
-a:hover{
+a:hover {
     text-decoration: none;
 }
-
-
-
-$fz: 10px;
-
-.fz-24 {
-    font-size: $fz * 2.4;
-}
-.fz-48 {
-    font-size: $fz * 4.8;
-    line-height: 1.25;
-}
-
-
 
 // 上下方logo
 .logo {
@@ -26,15 +11,4 @@ $fz: 10px;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.keyboard-arrow {
-    display: block;
-    // width: 120px;
-    > .material-icons {
-        display: block;
-        // width: 48px;
-        // height: 48px;
-        font-size: 48px;
-    }
 }

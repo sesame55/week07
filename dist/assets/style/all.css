@@ -9469,6 +9469,9 @@ a:hover {
   white-space: nowrap;
   overflow: hidden; }
 
+.z-1 {
+  z-index: 10; }
+
 .fz-16 {
   font-size: 16px;
   line-height: 1.5; }

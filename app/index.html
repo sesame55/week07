@@ -1,0 +1,57 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<!-- 上方選單 -->
+<nav class="navbar navbar-expand-sm navbar-primary py-4 px-7 fz-24">
+    <h1 class="m-0 p-0">
+        <a class="navbar-brand logo" href="#">Fixie </a>
+    </h1>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link p-0" href="#">Product <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-7">
+                <a class="nav-link p-0" href="#">Blog</a>
+            </li>
+            <li class="nav-item ml-7">
+                <a class="nav-link p-0" href="#">contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="container-fluid p-0">
+    <div class="row no-gutters">
+        <div class="col-6"></div>
+        <div class="col-6">
+            <img class="img-fluid img1" src="assets/images/img1.jpg" alt="" />
+            <div class="d-flex">
+                <a href="#" class='keyboard-arrow p-6'>
+                    <span class="material-icons "> keyboard_arrow_left </span>
+                </a>
+                <a href="#" class='keyboard-arrow p-6'>
+                    <span class="material-icons "> keyboard_arrow_right </span>
+                </a>
+                <p class='py-5 pl-7 mb-0 fz-48 font-italic'>
+                    Collection 001-xx
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

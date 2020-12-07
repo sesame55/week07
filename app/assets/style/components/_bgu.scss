@@ -1,0 +1,19 @@
+@mixin box($url, $height) {
+    background: url($url);
+    height: $height;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.bg-img1 {
+    @include box('../images/img1.jpg', calc(100vh - 96px));
+    // height: calc(100vh-96px);
+}
+
+.img1{
+    height:calc(100vh - 96px - 120px);
+    object-fit: cover;
+}

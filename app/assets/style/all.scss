@@ -1,0 +1,13 @@
+@import "bootstrap/functions";
+@import 'helpers/variables';
+@import "bootstrap/mixins";
+@import "bootstrap/bootstrap";
+
+
+@import 'base/base';
+
+@import 'components/bgu';
+
+*{
+  outline: 1px solid green;
+}

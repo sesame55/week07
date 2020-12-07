@@ -1,0 +1,19 @@
+.tag-relative{
+    position: relative;
+}
+
+
+.tag-read{
+    position: absolute;
+    bottom: calc(100vh / 2);
+    right: 0;
+    display: block;
+}
+
+
+.tag-arrow{
+    position: absolute;
+    bottom: calc(100vh / 2);
+    left: 0;
+    display: block;
+}

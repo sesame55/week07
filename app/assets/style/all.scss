@@ -1,18 +1,16 @@
-@import "bootstrap/functions";
+@import 'bootstrap/functions';
 @import 'helpers/variables';
-@import "bootstrap/mixins";
-@import "bootstrap/bootstrap";
+@import 'bootstrap/mixins';
+@import 'bootstrap/bootstrap';
 
 @import 'base/grid';
 @import 'base/base';
 @import 'base/font';
 
+@import 'components/bguAndImg'; //bgu , img
+@import 'components/arrow'; //箭頭
+@import 'components/tag'; //標籤
 
-@import 'helpers/arrow';//箭頭
-
-
-@import 'components/bgu';
-
-*{
-  outline: 1px solid green;
+* {
+    outline: 1px solid green;
 }

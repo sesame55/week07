@@ -6,7 +6,7 @@ current: index
 ---
 
 <!-- 上方選單 -->
-<nav class="navbar navbar-expand-sm navbar-primary py-4 px-7 fz-24">
+<nav class="navbar navbar-expand-sm navbar-primary py-4 px-7 fz-24 sticky-top bg-white border-bottom border-dark">
     <h1 class="m-0 p-0">
         <a class="navbar-brand logo" href="#">Fixie </a>
     </h1>
@@ -49,16 +49,16 @@ current: index
                     More recently the “fixie” has become a popular alternative among mainly urban cyclists, offering the
                     advantage of simplicity compared with the standard multi-geared bicycle.
                 </p>
-                <button class="btn btn-info p-3 fz-24 ff-Lato fw-bold">Shop Now</button>
+                <button class="btn btn-info p-3 fz-24 ff-Lato fw-bold border border-dark rounded-0">Shop Now</button>
             </div>
         </div>
         <div class="col-6">
             <img class="img-top" src="assets/images/img1.jpg" alt="" />
-            <div class="d-flex">
-                <a href="#" class="keyboard-arrow">
+            <div class="d-flex border border-dark">
+                <a href="#" class="keyboard-arrow border-right border-dark">
                     <span class="material-icons p-6"> keyboard_arrow_left </span>
                 </a>
-                <a href="#" class="keyboard-arrow">
+                <a href="#" class="keyboard-arrow border-right border-dark">
                     <span class="material-icons p-6"> keyboard_arrow_right </span>
                 </a>
                 <p class="py-5 pl-7 mb-0 font-italic text-nowrap collection-fz ff-Merriweather fw-900">
@@ -74,7 +74,7 @@ current: index
     <div class="row no-gutters">
         <div class="col-6 tag-relative">
             <img class="img-section" src="assets/images/img2.jpg" alt="" />
-            <a href="#" class="tag-read p-3 bg-info text-primary"> Read More </a>
+            <a href="#" class="tag-read p-3 bg-info text-primary border border-dark"> Read More </a>
         </div>
         <div class="col-6 bg-info p-9 d-flex flex-column justify-content-between position-relative">
             <!-- <div class='col-10'> -->
@@ -88,10 +88,11 @@ current: index
                 <h3 class="fz-72 ff-Merriweather font-italic fw-900 mb-4">One Gear,</h3>
                 <h3 class="fz-72 ff-Merriweather font-italic fw-900 mb-9">Many Variations</h3>
             </div>
-            <a href="#" class="material-icons tag-arrow p-3 text-info bg-primary"> arrow_forward </a>
+            <a href="#" class="material-icons tag-arrow p-3 text-info bg-primary border border-dark"> arrow_forward </a>
         </div>
     </div>
 </section>
+
 <!-- 區塊3 -->
 <section class="container-fluid p-0">
     <div class="row no-gutters">
@@ -106,11 +107,11 @@ current: index
                 than a geared bike in the same gear.
             </p>
 
-            <a href="#" class="tag-read p-3 text-info bg-primary"> Read More </a>
+            <a href="#" class="tag-read p-3 text-info bg-primary border border-dark"> Read More </a>
         </div>
         <div class="col-6 tag-relative">
             <img class="img-section" src="assets/images/img3.jpg" alt="" />
-            <a href="#" class="material-icons tag-arrow p-3 bg-info text-primary"> arrow_forward </a>
+            <a href="#" class="material-icons tag-arrow p-3 bg-info text-primary border border-dark"> arrow_forward </a>
         </div>
     </div>
 </section>
@@ -122,9 +123,80 @@ current: index
         regular commuters
     </h4>
     <div class="row justify-content-center no-gutters">
-        <p class="secondary mt-4 fz-16 col-4">
+        <p class="secondary mt-4 mb-0 fz-16 col-4">
             Riders unknown to each other commonly greet each other when on bikes. As in many subcultures, this feeling
             of belonging is a key factor in recruiting and retaining participants.
         </p>
+    </div>
+</section>
+
+<!-- 視差滾動 -->
+<section class="bg-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 p-3">
+                <h5 class="fz-24-36 font-italic fw-900 ff-Merriweather mb-3">
+                    “I like to ride. Fixed gear. No brakes. Can’t stop. Don’t want to, either.”
+                </h5>
+                <p class="mb-0 text-secondary fz-16 font-italic">Premium Rush (2012)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 卡片 -->
+<section class="container py-9">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" data-aos="fade-up" data-aos-delay="500">
+                <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img5.jpg?raw=true"
+                    class="card-img-top mb-3"
+                    alt="..."
+                />
+                <div class="card-body">
+                    <h4 class="card-title font-italic font-weight-bold mb-2">All who cycle are my friends</h4>
+                    <p class="card-text text-muted mb-2">2020.4.27</p>
+                    <p class="card-text text-secondary">
+                        A rider from Stockholm interviewed for an article about the phenomenon notes that riding a bike
+                        imparts a feeling of freedom to the rider…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" data-aos="fade-up" data-aos-delay="1000">
+                <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img6.jpg?raw=true"
+                    class="card-img-top mb-3"
+                    alt="..."
+                />
+                <div class="card-body">
+                    <h4 class="card-title font-italic font-weight-bold mb-2">Swedish riders and enthusiasts</h4>
+                    <p class="card-text text-muted mb-2">2020.3.11</p>
+                    <p class="card-text text-secondary">
+                        There are also several bicycle clubs throughout Sweden with a fixed-gear niche. Komet Club
+                        Rouler is a club based in Gothenburg, annually arranging Svart Kat…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" data-aos="fade-up" data-aos-delay="1500">
+                <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img7.jpg?raw=true"
+                    class="card-img-top mb-3"
+                    alt="..."
+                />
+                <div class="card-body">
+                    <h4 class="card-title font-italic font-weight-bold mb-2">The Australian fixie culture</h4>
+                    <p class="card-text text-muted mb-2">2020.2.29</p>
+                    <p class="card-text text-secondary">
+                        Online stores in Australia ship partially-assembled bikes directly to consumers, considerably
+                        undercutting prices at typical brick and mortar stores…
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

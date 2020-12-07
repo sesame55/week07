@@ -6,8 +6,10 @@
     background-repeat: no-repeat;
 }
 
-.bg-img1 {
-    @include box('../images/img1.jpg', calc(100vh - 96px));
+.bg-section {
+    @include box('../images/img4.jpg', 640px);
+    background-attachment: fixed;
+    background-position: top;
 }
 
 

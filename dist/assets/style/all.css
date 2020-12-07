@@ -9292,12 +9292,14 @@ a:hover {
     .collection-fz {
       font-size: 30px; } }
 
-.bg-img1 {
-  background: url("../images/img1.jpg");
-  height: calc(100vh - 96px);
+.bg-section {
+  background: url("../images/img4.jpg");
+  height: 640px;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; }
 
 .img-top {
   width: 100%;
@@ -9336,8 +9338,5 @@ a:hover {
   bottom: calc(100vh / 2);
   left: 0;
   display: block; }
-
-* {
-  outline: 1px solid green; }
 
 /*# sourceMappingURL=all.css.map */

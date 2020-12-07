@@ -1,5 +1,3 @@
-
-// bgu
 @mixin box($url, $height) {
     background: url($url);
     height: $height;
@@ -13,15 +11,3 @@
 }
 
 
-// img
-.img-top{
-    width: 100%;
-    height:calc(100vh - 96px - 120px);
-    object-fit: cover;
-}
-
-.img-section{
-    width: 100%;
-    height:calc(100vh);
-    object-fit: cover;
-}

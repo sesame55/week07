@@ -9457,6 +9457,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+section {
+  overflow: hidden; }
+
 a:hover {
   text-decoration: none; }
 

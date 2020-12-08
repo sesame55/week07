@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
 }
 
+// 視差滾動
 .bg-section {
     @include box('../images/img4.jpg', 640px);
     background-attachment: fixed;

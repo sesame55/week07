@@ -9540,7 +9540,7 @@ a:hover {
 
 .img-section {
   width: 100%;
-  height: calc(100vh);
+  height: calc(100vh - 96px);
   -o-object-fit: cover;
      object-fit: cover; }
 
@@ -9560,13 +9560,13 @@ a:hover {
 
 .tag-read {
   position: absolute;
-  bottom: calc(100vh / 2);
+  bottom: calc((100vh - 96px) / 2);
   right: 0;
   display: block; }
 
 .tag-arrow {
   position: absolute;
-  bottom: calc(100vh / 2);
+  bottom: calc((100vh - 96px) / 2);
   left: 0;
   display: block; }
 
